@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/namumba22/hero-sb-tax.svg?branch=master)](https://travis-ci.org/namumba22/hero-sb-tax)
+[![Build Status](https://api.travis-ci.org/namumba22/hero-sb-multiple-devide.svg?branch=master)](https://travis-ci.org/namumba22/hero-sb-multiple-devide)
 
 # Eureka example
 Multiple-devide sample
