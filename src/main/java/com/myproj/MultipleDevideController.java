@@ -21,6 +21,12 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class MultipleDevideController {
 
+    @RequestMapping(value = "/", method = {RequestMethod.GET})
+    public String help() {
+        return "try https:// ... /devide/12.3323/11";
+    }
+
+
     @RequestMapping(value = "/multiple/{amount}/{amount2:.+}", method = {RequestMethod.GET},
             produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
     @ResponseBody
